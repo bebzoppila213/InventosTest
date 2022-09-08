@@ -1,0 +1,19 @@
+.wrapper {
+    max-width: 400px;
+}
+
+.chat {
+    margin-top: 20px;
+    border: 2px solid #000;
+    padding: 20px 10px;
+    display: none;
+}
+
+.chat__content {
+    max-height: 150px;
+    overflow: scroll;
+}
+
+.chat--open {
+    display: block;
+}
